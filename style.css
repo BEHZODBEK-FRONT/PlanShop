@@ -1,0 +1,265 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1400px;
+    height: auto;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.navbar-all{
+    display: flex;
+    justify-content: center;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-end{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-icon{
+    display: flex;
+    gap: 15px;
+}
+
+.form-button1{
+    width: 111px;
+    height: 36px;
+    background: none;
+    border: none;
+}
+
+.form-button2{
+    width: 111px;
+    height: 36px;
+    background: #156963;
+    border: none;
+    color: white;
+}
+/* navbar end */
+
+/* header */
+.head-container{
+    width: 1519px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 142px;
+}
+
+.header{
+    display: flex;
+    gap: 77px;
+}
+
+.header-text h1{
+    font-size: 68px;
+    font-weight: 500;  
+    max-width: 523px;
+    color: #156963;  
+}
+
+.header-text p{
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 493px;
+    margin-top: 20px;
+}
+
+.header-text{
+    margin-top: 186px;
+}
+
+.header-end{
+    margin-top: 110px;
+    display: flex;
+}
+
+.header-previouc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 160px;
+    background: none;
+    border: none;
+    padding: 50px 0px 50px 50px;
+}
+
+.header-previouc span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.header-previouc h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: #156963;
+}
+
+.header-next{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+    height: 160px;
+    background: #156963;
+    padding: 50px 0px 50px 50px;
+}
+
+.header-next span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.header-next h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+.amal{
+    width: 1400px;
+    height: 155px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.afto{
+    width: 300px;
+    min-height: 50px;
+    margin: 22px 0px 16px 16px ;
+}
+.afto p{
+    font-size: 16px;
+    color: #2C1500;
+}
+.plants{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 80px;
+}
+.choper{
+    background-color: #fff;
+    border-radius: 3px;
+}
+.kaktuslar{
+    width: 1400px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.kaktus{
+    text-align: center;
+}
+.kaktus p{
+    margin: 16px 0 8px;
+}
+.more-plants{
+    width: 1400px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.more-plants-text{
+    width: 522px;
+    margin-left: 15px;
+}
+.more-plants-text h1{
+    font-size: 40px ;
+    font-weight: 700;
+}
+.more-plants-text P{
+    margin-top: 16px;
+}
+.more-img{
+    margin-top: 74px;
+}
+.our-shop{
+    width: 1400px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #F3F4F6;
+}
+.our-shop_text{
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 97px;
+}
+.shop-button{
+    width: 152px;
+    height: 40px;
+    border: none;
+    background-color: #156963;
+    color: #fff;
+}
+.chiziq{
+    width: 1400px;
+    height: 1px;
+    margin: 0 auto;
+    border: 1px solid #156963;
+    margin-top: 80px;
+}
+/* header end */
+.figma-end{
+    width: 946px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width: 282px;   
+    height: 137px;
+}
+.footer h4{
+    margin-top: 24px;
+}
+.footer p{
+    font-size: 13px;
+    color: #4F4F4F;
+    margin-top: 10px;
+}
+.sarlovha h5{
+    margin: 20px 0px 14px;
+    color: #000000;
+}
+.form-btn{
+    margin-top: 10px;   
+    display: flex;
+    background-color: #156963;
+    border:none;
+    color: #fff;
+    border-radius: 2px;
+}
+.form-input{
+    margin-top: 10px;
+}
